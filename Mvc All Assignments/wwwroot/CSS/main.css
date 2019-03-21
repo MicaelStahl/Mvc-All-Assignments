@@ -1,0 +1,27 @@
+﻿body {
+    background-color: darkslategray;
+    color: white;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+}
+
+.main-li {
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+    .main-li:hover {
+        background-color: darkgray;
+    }
+
+.main-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
