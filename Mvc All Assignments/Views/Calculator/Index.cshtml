@@ -9,5 +9,16 @@
     <input type="text" name="firstNumber" value="" placeholder="Insert first number" />
     <input type="text" name="operater" value="" placeholder="Insert operator" />
     <input type="text" name="secondNumber" value="" placeholder="Insert second number" />
-    <input type="button" value="Submit" />
+    <button>Submit</button>
 </form>
+<br />
+<br />
+
+@if (ViewBag.Answer != null)
+{
+    <h3>@ViewBag.Answer</h3>
+}
+@if (ViewBag.WrongInput != null)
+{
+    <h3>@ViewBag.WrongInput</h3>
+}
